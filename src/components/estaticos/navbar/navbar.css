@@ -1,0 +1,178 @@
+
+.container{
+    background-color: blue;
+    display: inline;
+    flex-flow: row;
+    height: 5%;
+    width: 100%;
+
+}
+
+.text{
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+}
+
+.top{
+    align-items: flex-start;
+}
+
+.tm{
+    height: 50px;
+}
+
+.btn{
+    display: inline;
+    height: 3%;
+    width: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* margin-bottom: -10px; */
+    /* border: 1px solid green; */
+    
+}
+
+.padding-btn{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+.btn-design{
+    background-color: aliceblue;
+    border-left: 1px solid aliceblue;
+    border-right: 1px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
+    cursor: pointer;
+    height: 60px;
+    transition: 1s ease;
+    color: red;
+
+}
+
+.btn-design:hover{
+    background-color: red;
+    border: 1px solid red;
+    color: aliceblue;
+}
+.border{
+    border: 2px solid red;
+}
+
+.padding2{
+    margin-left: -8px;
+}
+
+.dive{
+    height: 300px;
+    width: 1340px;
+    background-color: red;
+    border: 1px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textk{
+    color: red;
+}
+
+.img{
+    height: 100px;
+    transition: 0.09s;
+    margin: 10px;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.img:hover{
+    border-radius: 20px;
+    border: 6px solid white;
+    outline: 4px solid red;
+}
+
+.img2{
+    height: 100px;
+    transition: 0.09s;
+    margin: 10px;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.img2:hover{
+    border-radius: 20px;
+    border: 6px solid white;
+    outline: 4px solid #ff8321;
+}
+
+.img3{
+    height: 100px;
+    transition: 0.09s;
+    margin: 10px;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.img3:hover{
+    border-radius: 20px;
+    border: 6px solid white;
+    outline: 4px solid black;
+}
+
+.img4{
+    height: 100px;
+    transition: 0.09s;
+    margin: 10px;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.img4:hover{
+    border-radius: 20px;
+    border: 6px solid white;
+    outline: 4px solid purple;
+}
+
+.container2{
+    background-color: aliceblue;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+.family{
+    font-family: 'Junegull', 'Typo Round';
+    font-size: 25px;
+}
+
+.family2{
+    font-family: 'Typo Round Bold Italic';
+    font-style: italic;
+    font-size: larger;
+}
+
+.imagemlogo{
+    display: inline;
+    height: 3%;
+    width: 10%;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: #ff8321 solid 2px;
+}
+
+body{
+    background-color: blue;
+}
